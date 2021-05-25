@@ -1,0 +1,159 @@
+What is HTML?
+HTML means “Hypertext Mark Up Language”. HTML is used to make a website or a structure of a website. In HTML there are tags which are these: <>. In tags there is a open/close tag. An open class is- <>, a close tag is- . Every attributes in HTML are in these open and close tags.
+
+
+
+
+Text editors for HTML
+Now once you know what html means we have to find a place to type our HTML code. For this we use text editors to write our HTML code, for now we will use notepad which is a place to write our HTML code. This is the text editor we will be using:
+
+Notepad
+
+
+
+A Basic HTML page
+An HTML page has the extension .html, example- Sample.html
+
+
+Once you have saved your file with the .html extension, you can start typing HTML code. A basic web page consists of:
+
+- declaration
+- head
+- body
+
+So we start with a simple web page as follows:
+<!doctype html>
+<html>
+<head>
+<title>
+A web page
+</title>
+</head>
+<body>
+The body text goes here
+</body>
+</html>
+
+
+
+The type Declaration tag
+The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.
+
+It always appears at the top of the page. In this book we will be using HTML 5 and the doc type for that is
+
+NOTE
+
+<!DOCTYPE html> is not necessary, you can just use <html>.
+
+
+Head Tag
+<head> </head>
+The <head> element contains information about an HTML document that is used by browsers and web crawlers but is not displayed to website visitors.
+
+
+
+Body Tag
+
+<body> </body>
+The HTML tag defines the main content of the HTML document or the section of the HTML document that will be directly visible on your web page. This tag is also commonly referred to as the <body> element.
+
+
+
+Linebreaks Tags
+
+In our first tutorial we created a simple web page. It wasn’t too exciting it just printed our "A web page"
+
+Now let’s move forward by adding some text formatting. First let’s add a couple more lines of text. Maybe we want to print the following:
+
+Hello World!
+
+My name is Joe.
+
+My friend is Sally.
+
+Our HTML looks like this:
+
+<!DOCTYPE html>
+<html>
+<body>
+Hello World! <br>
+My name is Joe. <br>
+My friend is Sally. <br>
+</body>
+</html>
+
+
+So, in the above code you see that there is a tag called:
+<br>
+
+This tag is nothing but breaking a line or the next text will be displayed on a new line
+That means that without a <br> tag our sentences would look like this:
+
+Hello World! My name is Joe. My friend is Sally.
+Everthing you wrote would be in one line, but with a <br> tag it looks like this:
+
+Hello World!
+My name is Joe.
+My friend is Sally.
+
+
+
+Heading Tags
+
+The heading tags are located in the body tag. It's used to emphasize the text. There are six heading tags, h1 to h6. the h1 heading style displays it's text in the largest font size, and it keeps decreasing from there to h6. Example in the below HTML you can see:
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello World! </h1>
+<h2>Hello World! </h2>
+<h3>Hello World! </h2>
+<h4>Hello World! </h4>
+<h5>Hello World! </h5>
+<h6>Hello World! </h6>
+</body>
+</html>
+Result:
+
+
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+
+
+
+Paragraph Tags
+
+<p> </p>
+A paragraph tag is used for separating sentences to make it a paragraph. Example:
+
+<!doctype html>
+<html>
+<head>
+<title>
+A web page
+</title>
+</head>
+<body>
+<p>
+A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a single effect or mood.
+</p>
+
+
+<p>
+The short story is one of the oldest types of literature and has existed in the form of legends, mythic tales, folk tales, fairy tales, fables and anecdotes in various ancient communities across the world. The modern short story developed in the early 19th century.
+</p>
+</body>
+</html>
+
+
+Result:
+A short story is a piece of prose fiction that typically can be read in one sitting and focuses on a self-contained incident or series of linked incidents, with the intent of evoking a single effect or mood.
+
+The short story is one of the oldest types of literature and has existed in the form of legends, mythic tales, folk tales, fairy tales, fables and anecdotes in various ancient communities across the world. The modern short story developed in the early 19th century.
+
+
+
