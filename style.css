@@ -136,7 +136,13 @@ main{
 }
 
 .html_img{
-    margin-left: 43%;
+    display: block;
+    margin: 0 auto;
+}
+
+.code-area{
+    display: flex;
+
 }
 
 .wnote{
@@ -171,6 +177,30 @@ main{
     100%{
         margin-bottom: 2%;
     }
+}
+
+.html-box{
+    width:10%;
+    padding: 12px 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: palevioletred;
+    background-color: #111;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.html-box-code{
+    width: 30%;
+    padding: 12px 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: palevioletred;
+    background-color: #111;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -225,8 +255,39 @@ main{
     }
 
     .html_img{
-        margin-left: 20%;
+        display: block;
+        margin: 0 auto;
         width: 60%;
+    }
+
+    .html-box{
+        width:10%;
+        padding: 12px 12px;
+        border-radius: 10px;
+        text-align: center;
+        color: palevioletred;
+        background-color: #111;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .html-box-code{
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        text-align: center;
+        color: palevioletred;
+        background-color: #111;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+        
+    }
+
+    .code-area{
+        display: block;
+    
     }
 
 }
